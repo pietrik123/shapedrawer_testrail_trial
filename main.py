@@ -81,8 +81,8 @@ def draw_rectangle(a,b):
         print("Too big. Max len of a and b is" + str(max_len))
     else:
         shape = "\n"
-        for i in range(0, a):
-            for j in range(0, b):
+        for i in range(0, b):
+            for j in range(0, a):
                 shape += character
             shape += "\n"
         print(shape + "\n")
